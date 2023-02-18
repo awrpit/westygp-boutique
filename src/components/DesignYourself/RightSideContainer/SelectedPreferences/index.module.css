@@ -1,0 +1,21 @@
+.container {
+  border: none;
+  background: #fff !important;
+  border-radius: 7px !important;
+  height: fit-content !important;
+  max-height: 50vh !important;
+  overflow-y: scroll !important;
+  padding: 10px !important;
+  width: 45vw !important;
+  margin: 20px;
+}
+
+.headingContainer {
+  padding: 10px !important;
+  margin-bottom: 5px !important;
+  color: black !important;
+  text-align: left !important;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  font-family: 'Nunito', sans-serif !important;
+}

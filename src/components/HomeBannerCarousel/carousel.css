@@ -1,0 +1,39 @@
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  position: absolute;
+  top: 50%;
+}
+
+.slick-prev,
+.slick-next {
+  color: transparent;
+  font-size: 20px !important;
+  z-index: 1 !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 50px;
+  color: black;
+}
+
+.slick-prev {
+  left: 15vw !important;
+}
+
+.slick-next {
+  right: 15vw !important;
+}
+
+@media (max-width: 480px) {
+  .ant-carousel .slick-prev,
+  .ant-carousel .slick-next {
+    position: absolute;
+    top: 90%;
+    right: 20% !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}

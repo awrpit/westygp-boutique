@@ -1,0 +1,22 @@
+.container {
+  height: fit-content !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightContainer {
+  justify-items: flex-end;
+}
+
+.showcaseImage {
+  max-height: 40vh;
+  width: auto;
+  text-align: right;
+}

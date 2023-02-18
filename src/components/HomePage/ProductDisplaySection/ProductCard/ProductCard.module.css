@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.image {
+  width: 70%;
+  /* height: 40vh; */
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  margin: auto;
+  -webkit-box-shadow: 0px 3px 18px 5px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 18px 5px rgba(0, 0, 0, 0.16);
+}
+
+.image:hover {
+  -webkit-box-shadow: 0px 3px 18px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 3px 18px 5px rgba(0, 0, 0, 0.26);
+}
+
+.title,
+.title:hover {
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+  cursor: pointer;
+  width: 70%;
+  margin: auto;
+}
+
+.viewMoreButton {
+  cursor: pointer;
+  background-color: rgb(229, 54, 55);
+  color: white;
+  padding: 15px 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  outline: none !important;
+  border: none;
+  width: fit-content;
+  border-radius: 30px;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .image {
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+  }
+}

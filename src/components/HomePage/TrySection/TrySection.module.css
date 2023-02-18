@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  gap: 20px;
+}
+
+.innerGrid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.itemImage {
+  height: 300px;
+  width: auto;
+  margin: 20px auto;
+}
+
+.itemPara {
+  color: #81848a;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .innerGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .itemContainer {
+    gap: 10px;
+  }
+}

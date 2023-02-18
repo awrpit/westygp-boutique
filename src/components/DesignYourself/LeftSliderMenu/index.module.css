@@ -1,0 +1,10 @@
+.container {
+  height: fit-content;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  background-color: #dadada;
+  fill-opacity: 0.3;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+}

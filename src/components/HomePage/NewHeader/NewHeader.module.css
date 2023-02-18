@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 5rem;
+  align-items: center;
+  margin: auto;
+  align-content: space-around;
+  max-width: 100vw;
+}
+
+.logo {
+  cursor: pointer;
+  width: 100px;
+  margin-right: auto;
+}
+
+.menu {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  gap: 1.2rem;
+  /* max-width: 60vw; */
+  transition: all 0.3s ease-in;
+  font-weight: 600;
+}
+
+.menuItem {
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  font-family: 'Nunito', sans-serif !important;
+  text-align: center;
+  text-overflow: ellipsis;
+  width: fit-content;
+}
+
+.menuItem:hover {
+  color: black;
+  border-bottom: 2px solid rgb(229, 54, 55);
+}
+
+.rightElements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  gap: 8px;
+}
+
+.rightItem {
+  color: black !important;
+  font-size: 20px;
+}
+
+.rightItem:hover {
+  color: rgb(229, 54, 55) !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .menuItem {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 24px 2rem;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  .rightElements {
+    margin: auto;
+  }
+}
